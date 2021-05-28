@@ -1,0 +1,85 @@
+         body{
+           background-color:rgb(128, 1, 246); 
+        }
+        .header{          
+            background-color: #47BF01;
+            display:flex;
+            justify-content:space-between;
+        }
+
+        h1{
+            color:rgb(255, 242, 242);
+            background-image:url( "Icons/bg.png");
+            font-family: "Algerian";
+            margin-left:  30px;
+            
+        }
+
+        .grid{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        
+        }
+        h2,h4,p{
+            color: white;
+            text-align: center;
+            text-shadow: tomato;
+            text-decoration: violet;
+            font-size: 30px;
+            font-weight: 800;
+            
+        }
+        
+        .footer{
+            display:flex;
+            justify-content:flex-end; 
+        }
+        
+        .menu{
+            
+            margin-right: 30px;
+            margin-top: 30px;
+
+        }
+        
+        .menu a{ 
+            margin-left: 30px;
+
+        }
+
+        a:link{
+            color: yellow;
+        }
+
+        a:visited{
+            color: rgb(15, 68, 241);
+        }
+
+        .item{
+            position: relative;
+        }
+
+        .item p{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-100%);
+            color:rgb(240, 8, 27);
+            font-size: 25px;
+            opacity:0;
+            
+        }
+
+        .item:hover p{
+            opacity: 1;
+        }
+        
+
+        .item:hover img{
+            opacity: 0.5;
+            width: 400px;
+            height: 400px;
+            
+        }
+         
